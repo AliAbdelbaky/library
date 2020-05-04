@@ -1,0 +1,688 @@
+/* star navBar */
+.navbar {
+  justify-content: center;
+  opacity: 0.8;
+}
+.navbar .navbar-brand {
+  margin-left: 77px;
+}
+.navbar .navbar-brand img {
+  max-width: 53px;
+  margin-top: -12px;
+}
+.navbar .navbar-brand span {
+  font-weight: 400;
+  font-size: 33px;
+  margin: 7px;
+}
+.navbar-nav {
+  margin: 0px 48px;
+}
+.navbar .nav-item {
+  font-size: 22px;
+  margin: 0px 17px 0px 10px;
+}
+/* end navBar */
+/* start header */
+.header {
+  background-image: url(../images/pexels-photo.jpg);
+  background-size: cover;
+  display: flex;
+}
+.header .overlay {
+  max-height: 800px;
+  max-width: inherit;
+  /* position: absolute; */
+  width: 100%;
+  height: 692px;
+  left: 0;
+  top: 0;
+  background-color: #0f121585;
+  z-index: 2;
+}
+.header span {
+  top: 82px;
+}
+.header span p {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 23px;
+  max-width: 569px;
+  left: 100px;
+  font-weight: 300;
+  top: 329px;
+  z-index: 3;
+}
+.header h1 {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  max-width: 900px;
+  line-height: 1.5;
+  left: 100px;
+  font-weight: 300;
+  top: 240px;
+  z-index: 3;
+}
+.header span a {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  max-width: 569px;
+  left: 285px;
+  font-weight: 300;
+  top: 413px;
+  z-index: 3;
+  border: 1.5px solid #6c757d;
+  border-radius: 15px;
+  padding: 6px 37px 6px 37px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.header span a:hover {
+  background-color: #616568;
+}
+.header img {
+  margin: 25px 0px 0px 615px;
+  position: absolute;
+}
+.form-one {
+  background: #cfd1d0;
+  padding: 29px;
+}
+.input-group > .form-control:not(:first-child) {
+  border-radius: 4px;
+}
+/* End header */
+/*  start features  */
+.features {
+  margin: 70px 0px 40px;
+}
+.features .item {
+  border: 1px solid #007bff;
+  border-radius: 7px;
+  margin-right: 91px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.features .itemhover:hover {
+  color: #fff;
+  background-color: #007bff;
+  cursor: pointer;
+}
+.features .item h1 {
+  font-size: 29px;
+  padding: 15px 0px 5px;
+}
+/* end features  */
+/* start overview */
+.overview {
+  margin: 85px 0px 21px;
+}
+.overview h2 {
+  color: #007bff;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.overview p {
+  color: #625c5c;
+  line-height: 1.6;
+  padding-bottom: 36px;
+  border-bottom: 1px solid #cfd1d0;
+}
+/* end overview */
+/* start excard */
+.excard {
+  margin: 69px 0px -26px;
+}
+.excard .excard-item span {
+  color: #007bff;
+  cursor: pointer;
+  margin: 0px 15px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.excard .excard-item span:hover {
+  color: #0b55a5;
+}
+.excard .excard-item span i {
+  font-size: 14px;
+  position: relative;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.excard .excard-item span h4 {
+  font-size: 15px;
+  margin-bottom: 19px;
+  display: inline-block;
+}
+.excard .excard-item p {
+  color: #484545;
+  padding: 11px 18px 15px;
+  border-top: 1px solid #d6d8d7;
+  border-bottom: 1px solid #d6d8d7;
+  display: none;
+}
+/* end excard */
+/* start card */
+.card-a {
+  margin: 50px 0px 25px 0px;
+}
+.card-a .card-body {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.card-a .card-body:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+.card-a .card h5 {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card-a .card h4 {
+  font-size: 21px;
+  color: #6c757d;
+  text-transform: uppercase;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.card-a .card h4:hover {
+  color: #fff;
+}
+.card-a .card p {
+  font-size: 15px;
+  color: #424040;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.card-a .card p:hover {
+  color: #fff;
+}
+.card-a .card span a i {
+  color: #273846;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.card-a .card span a i:hover {
+  color: #fff;
+}
+.card-a .card span a .icon {
+  margin: 0px 32px;
+}
+/* end card */
+/* start form */
+/* .form  {
+ background-image: url(../images/icon.png);
+ background-repeat: no-repeat;
+ background-size: cover;
+ backface-visibility: .5px;
+} */
+.form header {
+  color: #007bff;
+  font-weight: 300;
+  margin-bottom: 30px;
+  font-size: 34px;
+}
+.form .info {
+  margin-left: 100px;
+}
+.form .info .one {
+  padding: 10px;
+  width: 480px;
+  margin-bottom: 6px;
+  border: 1px solid #007bff;
+  border-radius: 9px;
+}
+.form .info .two {
+  width: 480px;
+  height: 146px;
+  border: 1px solid #007bff;
+  border-radius: 9px;
+}
+.form .info img {
+  float: right;
+  max-width: 251px;
+  margin-right: 109px;
+}
+/* end form */
+/* start footer */
+footer {
+  color: #6c757d;
+  background-color: #252525;
+  margin-top: 45px;
+  padding: 45px;
+}
+footer .row .info {
+  float: left;
+}
+footer .social a {
+  float: right;
+  color: #6c757d;
+}
+footer .social a:hover {
+  color: #b3b8bc;
+}
+/* end footer */
+/* start responsive */
+@media (min-width: 250px) {
+  footer .social {
+    right: 13px;
+    margin-right: 0px;
+  }
+  .header img {
+    margin: 232px 0px 0px 112px;
+    position: absolute;
+    max-width: 124px;
+  }
+  .header h1 {
+    font-size: 11px;
+    left: 6px;
+    top: 384px;
+  }
+  .header span p {
+    font-size: 5px;
+    left: 5px;
+    top: 410px;
+  }
+  .header span a {
+    font-size: 5px;
+    left: 36px;
+    top: 442px;
+    padding: 2px 14px;
+  }
+  .navbar .navbar-brand {
+    margin-left: 0px;
+  }
+  .navbar .navbar-brand span {
+    font-size: 25px;
+  }
+  .navbar .navbar-brand img {
+    max-width: 47px;
+  }
+  .features .item {
+    margin: 10px;
+  }
+  .card-a .info {
+    margin: 5px;
+  }
+  .overview h2 {
+    font-size: 24px;
+  }
+  .form header {
+    font-size: 26px;
+  }
+  .form .info {
+    margin-left: 1px;
+  }
+  .form .info .one {
+    width: 131px;
+  }
+  .form .info .two {
+    width: 131px;
+    height: 74px;
+  }
+  .form .info img {
+    max-width: 76px;
+    margin: 41px 11px 11px 11px;
+  }
+}
+@media (min-width: 320px) {
+  footer .social {
+    right: 13px;
+    margin-right: 33px;
+  }
+  .header img {
+    margin: 178px 0px 0px 136px;
+    position: absolute;
+    max-width: 169px;
+  }
+  .header h1 {
+    font-size: 14px;
+    left: 1px;
+    top: 342px;
+  }
+  .header span p {
+    font-size: 6px;
+    left: 6px;
+    top: 381px;
+  }
+  .header span a {
+    font-size: 7px;
+    left: 43px;
+    top: 417px;
+    padding: 1px 16px;
+  }
+  .form .info {
+    margin-left: 8px;
+  }
+  .form .info .one {
+    width: 150px;
+    border-radius: 9px;
+  }
+  .form .info .two {
+    width: 150px;
+    height: 77px;
+    padding: 8px;
+  }
+  .form .info img {
+    float: right;
+    max-width: 251px;
+    max-width: 130px;
+    margin: 20px 0px 10px 10px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 24px;
+  }
+}
+@media (min-width: 375px) {
+  .header img {
+    margin: 178px 0px 0px 175px;
+    position: absolute;
+    max-width: 169px;
+  }
+  .header h1 {
+    font-size: 17px;
+    left: 1px;
+    top: 311px;
+  }
+  .header span p {
+    font-size: 8px;
+    left: 2px;
+    top: 352px;
+  }
+  .header span a {
+    font-size: 9px;
+    left: 57px;
+    top: 395px;
+    padding: 1px 16px;
+  }
+  footer .social {
+    right: 33px;
+    margin-right: 33px;
+  }
+}
+@media (min-width: 411px) {
+  .header img {
+    margin: 211px 0px 0px 182px;
+    position: absolute;
+    max-width: 211px;
+  }
+  .header h1 {
+    font-size: 17px;
+    left: 8px;
+    top: 342px;
+  }
+  .header span p {
+    font-size: 8px;
+    left: 6px;
+    top: 381px;
+  }
+  .header span a {
+    font-size: 9px;
+    left: 59px;
+    top: 429px;
+    padding: 1px 16px;
+  }
+  footer .social {
+    right: 60px;
+    margin-right: 33px;
+  }
+}
+@media (min-width: 425px) {
+  footer .social {
+    right: 13px;
+    margin-right: 85px;
+  }
+  .header img {
+    margin: 179px 0px 0px 187px;
+    position: absolute;
+    max-width: 223px;
+  }
+  .header h1 {
+    font-size: 18px;
+    left: 4px;
+    top: 322px;
+  }
+  .header span p {
+    font-size: 8px;
+    left: 6px;
+    top: 370px;
+  }
+  .header span a {
+    font-size: 8px;
+    left: 51px;
+    top: 419px;
+    padding: 3px 26px;
+  }
+  .form .info {
+    margin-left: 18px;
+  }
+  .form .info .one {
+    width: 194px;
+  }
+  .form .info .two {
+    width: 194px;
+    height: 87px;
+  }
+  .form .info img {
+    float: right;
+    max-width: 191px;
+    margin: 0px 2px 10px 0px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 41px;
+  }
+}
+@media (min-width: 576px) {
+  footer .social {
+    right: 13px;
+    margin-right: 159px;
+  }
+  .header img {
+    margin: 149px 0px 0px 252px;
+    position: absolute;
+    max-width: 277px;
+  }
+  .header h1 {
+    font-size: 25px;
+    left: 3px;
+    top: 307px;
+  }
+  .header span p {
+    font-size: 11px;
+    left: 13px;
+    top: 359px;
+  }
+  .header span a {
+    font-size: 10px;
+    left: 92px;
+    top: 423px;
+  }
+  .form .info {
+    margin-left: 39px;
+  }
+  .form .info .one {
+    width: 265px;
+  }
+  .form .info .two {
+    width: 265px;
+    height: 84px;
+  }
+  .form .info img {
+    max-width: 194px;
+    margin-right: 56px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 41px;
+  }
+}
+@media (min-width: 768px) {
+  footer .social {
+    right: 13px;
+    margin-right: 0px;
+  }
+  .header img {
+    margin: 131px 0px 0px 369px;
+    position: absolute;
+    max-width: 333px;
+  }
+  .header h1 {
+    font-size: 31px;
+    left: 50px;
+    top: 299px;
+  }
+  .header span p {
+    font-size: 16px;
+    left: 24px;
+    top: 373px;
+  }
+  .header span a {
+    font-size: 13px;
+    left: 145px;
+    top: 457px;
+  }
+  .form .info {
+    margin-left: 39px;
+  }
+  .form .info .one {
+    width: 290px;
+  }
+  .form .info .two {
+    width: 290px;
+    height: 93px;
+  }
+  .form .info img {
+    max-width: 201px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 41px;
+  }
+}
+@media (min-width: 992px) {
+  footer .social {
+    right: 13px;
+    margin-right: 0px;
+  }
+  .header img {
+    margin: 110px 0px 0px 586px;
+    position: absolute;
+    max-width: 344px;
+  }
+  .header h1 {
+    font-size: 42px;
+    left: 130px;
+  }
+  .header span p {
+    font-size: 18px;
+    left: 143px;
+  }
+  .header span a {
+    font-size: 14px;
+    left: 283px;
+    top: 441px;
+  }
+  .form .info {
+    margin-left: 100px;
+  }
+  .form .info .one {
+    padding: 10px;
+    width: 480px;
+  }
+  .form .info .two {
+    width: 480px;
+    height: 146px;
+  }
+  .form .info img {
+    float: right;
+    max-width: 251px;
+    margin-right: 109px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 41px;
+  }
+}
+@media (min-width: 1200px) {
+  footer .social {
+    right: 13px;
+    margin-right: 0px;
+  }
+  .header img {
+    margin: 65px 0px 0px 606px;
+    position: absolute;
+    max-width: 405px;
+  }
+  .header h1 {
+    font-size: 45px;
+    left: 123px;
+    top: 240px;
+  }
+  .header span p {
+    font-size: 18px;
+    left: 140px;
+    top: 329px;
+  }
+  .header span a {
+    font-size: 15px;
+    left: 277px;
+    top: 413px;
+  }
+  .form .info {
+    margin-left: 100px;
+  }
+  .form .info .one {
+    width: 628px;
+  }
+  .form .info .two {
+    width: 628px;
+    height: 146px;
+  }
+  .form .info img {
+    float: right;
+    max-width: 258px;
+    margin-right: 128px;
+  }
+  .card-a .info {
+    margin: 0px;
+  }
+  .overview h2 {
+    font-size: 41px;
+  }
+}
+/* end responsive */
